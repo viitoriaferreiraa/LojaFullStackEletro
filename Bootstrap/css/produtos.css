@@ -1,0 +1,48 @@
+/* Página Produtos  */
+.categorias {
+    display:inline-block;    
+    vertical-align:top;
+    height: 100%;
+    padding:20px;
+    width:15%;
+    cursor: pointer;
+}
+li {
+    list-style: none; 
+}
+.produtos{
+   display: inline-block; 
+   height: 100%;
+   padding: 10px;     
+   text-align:center;
+   width:80%;       
+}
+.boxProduto{
+   display: inline-block; 
+   width:20%; 
+   height:100px;    
+   text-align: center;      
+   padding: 20px;    
+}
+.imgProduto{
+    width:150px;  
+}
+.descricao{
+    text-align: center;
+    justify-content: center;    
+}
+.descricaoPreco{
+    text-decoration:line-through;
+}
+.desconto{
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content:center;
+    text-align: center;
+}
+/* Fim Página Produtos */
+.rodapeImg{
+    margin-left:500px;    
+    width:25%;
+}
