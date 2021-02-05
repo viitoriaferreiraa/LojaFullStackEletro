@@ -1,18 +1,38 @@
 const Add = (cartItens, produto) => {
     return{
-      type: 'ADD_ITEM', 
+      type: 'ADD_TO_CART', 
       cartItens,
       produto
     }
 }
 
-const Remove = () => {
-    return{
-      type: 'REMOVE_ITEM',  
-    }
+const Remove = (cartItens, produto) => {
+  return{
+    type: 'REMOVE_CART', 
+    cartItens,
+    produto
+  }
+}
+
+const AddItem = (cartItens, produto) => {
+  return{
+    type: 'ADD_ITEM', 
+    cartItens,
+    produto
+  }
+}
+
+const RemoveItem = (cartItens, produto) => {
+  return{
+    type: 'DELETE_ITEM', 
+    cartItens,
+    produto
+  }
 }
 
 export default {
     Add,
-    Remove
+    Remove,
+    AddItem,
+    RemoveItem
 }

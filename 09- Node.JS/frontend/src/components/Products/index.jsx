@@ -94,7 +94,7 @@ const ProductsPage = () => {
                     <p className="card-text text-danger"><strong><s>{item.preco}</s></strong></p>
                     <p className="card-text"><mark className="precofinal"><strong>{item.preco_venda}</strong></mark></p>
                     <Link to="/faleconosco"><button className="botaocompra btn btn-danger">Comprar</button></Link>
-                    <button onClick={()=>dispatch(cartAction.Add(cartItens, item))}>Add</button>
+                    <button className="btn btn-success" onClick={()=>dispatch(cartAction.Add(cartItens, item))}>Adicionar ao carrinho</button>
                     </div>
                     </div>
     )

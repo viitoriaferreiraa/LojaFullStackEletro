@@ -6,7 +6,8 @@ const CartButton = () => {
     return(
       <>
       <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#cartModal">
-        Cart {cartItens}
+        <span><i className="fas fa-shopping-cart"></i></span>
+        <span className="badge rounded-pill bg-info text-dark">{cartItens}</span>
       </button>
       <CartModal/>
       </>
