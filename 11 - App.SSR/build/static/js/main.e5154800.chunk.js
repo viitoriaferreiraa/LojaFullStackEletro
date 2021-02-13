@@ -1,0 +1,2 @@
+(this["webpackJsonpapp-ssr"]=this["webpackJsonpapp-ssr"]||[]).push([[0],{9:function(e,t,n){"use strict";n.r(t);var s=n(3),c=n.n(s),r=(n(1),n(0)),o=function(e){return Object(r.jsx)("div",{children:Object(r.jsxs)("h1",{children:["Recode ",e.ano]})})},a=function(){return Object(r.jsx)(o,{ano:"2021"})};c.a.hydrate(Object(r.jsx)(a,{}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.e5154800.chunk.js.map
